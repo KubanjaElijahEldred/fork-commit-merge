@@ -1,4 +1,25 @@
 # YAML - Easy
 
-# TODO: Create a Basic YAML Configuration File
+# Basic YAML Configuration File
 
+app:
+  name: "MyApplication"
+  version: "1.0.0"
+  environment: "production"
+  port: 8080
+
+database:
+  host: "localhost"
+  port: 5432
+  name: "myapp_db"
+  username: "admin"
+  password: "secure_password"
+
+logging:
+  level: "info"
+  file: "/var/log/myapp.log"
+
+features:
+  enable_cache: true
+  enable_notifications: false
+  max_connections: 100
